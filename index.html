@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AIRA democratizes AI research by pairing high school students with PhD mentors to publish real research papers. Free 8-week summer and 9-month school year fellowships.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="AIRA - AI Research Access">
+    <meta property="og:description" content="Publish AI Research. Transform Your Future. Free mentorship for high school students.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://airesearchaccess.org">
+    <meta property="og:image" content="images/hero-preview.jpg">
+    
+    <title>AIRA - AI Research Access</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">
+                    <!-- AIRA Monogram Logo -->
+                    <svg class="logo-monogram" width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="4" y="4" width="16" height="16" rx="1.618" fill="#0047AB"/>
+                        <rect x="6.809" y="6.809" width="10.382" height="10.382" rx="1.059" fill="white"/>
+                        <line x1="8.618" y1="13.618" x2="10.5" y2="10" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <line x1="13.382" y1="13.618" x2="11.5" y2="10" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <line x1="9.691" y1="13.618" x2="12.309" y2="13.618" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <circle cx="14.618" cy="9.691" r="0.618" fill="#00D9FF"/>
+                        <line x1="14.618" y1="10.309" x2="14.618" y2="12.927" stroke="#0047AB" stroke-width="0.382" stroke-linecap="round"/>
+                        <line x1="11" y1="10" x2="11" y2="14.618" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <path d="M 11,14.236 Q 11,13 12.236,13" fill="none" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <line x1="12.236" y1="13" x2="13.854" y2="15.618" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-main">AIRA</span>
+                        <span class="logo-sub">AI Research Access</span>
+                    </div>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#students">For Students</a></li>
+                <li><a href="#mentors">For Mentors</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#legal">Legal</a></li>
+                <li><a href="#apply" class="btn-primary">Apply Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-gradient"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">Publish AI Research.<br>Transform Your Future.</h1>
+                <p class="hero-subtitle">Free mentorship from PhD researchers for high school students. No elite school required.</p>
+                <div class="hero-buttons">
+                    <a href="https://form.jotform.com/253107655895063" class="btn-hero-primary" target="_blank">Apply as Student</a>
+                    <a href="https://form.jotform.com/253107396424053" class="btn-hero-secondary" target="_blank">Apply as Mentor</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Students Served</span>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Papers Published</span>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="600">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Mentors</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem">
+        <div class="container">
+            <div class="problem-content">
+                <div class="problem-text" data-aos="fade-right">
+                    <h2>Research opportunities are gatekept.</h2>
+                    <p>Unless you attend an elite school or have family connections, you can't access research mentorship. This perpetuates inequality in who becomes an AI researcher.</p>
+                    <div class="problem-stats">
+                        <div class="stat-box">
+                            <span class="stat-number">12%</span>
+                            <span class="stat-desc">of AI researchers are from underrepresented backgrounds</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">90%</span>
+                            <span class="stat-desc">of high schools offer no research opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-image" data-aos="fade-left">
+                    <svg width="300" height="300" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.9;">
+                        <rect x="4" y="4" width="16" height="16" rx="1.618" fill="#0047AB"/>
+                        <rect x="6.809" y="6.809" width="10.382" height="10.382" rx="1.059" fill="white"/>
+                        <line x1="8.618" y1="13.618" x2="10.5" y2="10" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <line x1="13.382" y1="13.618" x2="11.5" y2="10" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <line x1="9.691" y1="13.618" x2="12.309" y2="13.618" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <circle cx="14.618" cy="9.691" r="0.618" fill="#00D9FF"/>
+                        <line x1="14.618" y1="10.309" x2="14.618" y2="12.927" stroke="#0047AB" stroke-width="0.382" stroke-linecap="round"/>
+                        <line x1="11" y1="10" x2="11" y2="14.618" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <path d="M 11,14.236 Q 11,13 12.236,13" fill="none" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                        <line x1="12.236" y1="13" x2="13.854" y2="15.618" stroke="#0047AB" stroke-width="0.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">We're changing that.</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">AIRA provides the mentorship, resources, and structure to publish real research.</p>
+            
+            <div class="program-cards">
+                <div class="program-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-header">
+                        <i class="fas fa-sun"></i>
+                        <h3>Summer Research Fellowship</h3>
+                        <span class="duration">8 Weeks | Full-Time</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Intensive sprint from research question to published paper. Daily mentor contact, rapid iteration, high-impact results.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 30-40 hours/week commitment</li>
+                            <li><i class="fas fa-check"></i> Free for all students</li>
+                            <li><i class="fas fa-check"></i> Peer-reviewed publication goal</li>
+                            <li><i class="fas fa-check"></i> Perfect for first-time researchers</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <strong>Timeline:</strong> June - August<br>
+                        <strong>Applications Due:</strong> March 1
+                    </div>
+                </div>
+
+                <div class="program-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-header">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>School Year Fellowship</h3>
+                        <span class="duration">9 Months | Part-Time</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Sustained, deep research on ambitious projects. Balance school with groundbreaking work. Highest publication standards.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> 10-15 hours/week</li>
+                            <li><i class="fas fa-check"></i> Free for all students</li>
+                            <li><i class="fas fa-check"></i> Top-tier journal submissions</li>
+                            <li><i class="fas fa-check"></i> Career-building experience</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <strong>Timeline:</strong> September - May<br>
+                        <strong>Applications Due:</strong> June 1
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">From Idea to Publication</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Our proven path to your first research paper.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                    <div class="timeline-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>1. Apply with Idea</h3>
+                        <p>Submit your research proposal and technical portfolio. No perfect resume required—just curiosity and drive.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                    <div class="timeline-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>2. Get Matched</h3>
+                        <p>We pair you with a PhD researcher who shares your interests. Weekly 1-on-1 meetings guide your project.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="600">
+                    <div class="timeline-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>3. Conduct Research</h3>
+                        <p>Run experiments, analyze data, iterate. Your mentor provides technical guidance and keeps you on track.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="800">
+                    <div class="timeline-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>4. Write Your Paper</h3>
+                        <p>Learn scientific writing. Draft, revise, and polish your manuscript with mentor feedback.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="1000">
+                    <div class="timeline-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>5. Submit & Publish</h3>
+                        <p>Submit to peer-reviewed journals or arXiv. Present at conferences. Add to your portfolio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Numbers -->
+    <section id="impact" class="impact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Real Research. Real Impact.</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">We're just getting started, but our vision is bold.</p>
+            
+            <div class="impact-grid">
+                <div class="impact-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-users"></i>
+                    <h3>1000+</h3>
+                    <p>Target Students by 2029</p>
+                </div>
+                <div class="impact-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>200+</h3>
+                    <p>Target Publications</p>
+                </div>
+                <div class="impact-card" data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fas fa-heart"></i>
+                    <h3>50%+</h3>
+                    <p>Underrepresented Students</p>
+                </div>
+                <div class="impact-card" data-aos="zoom-in" data-aos-delay="800">
+                    <i class="fas fa-globe"></i>
+                    <h3>5</h3>
+                    <p>Continents Represented</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About AIRA</h2>
+            
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-bullseye"></i> Mission Statement</h3>
+                    <p>AIRA exists to empower high school students globally to explore, engage in, and publish authentic research within the domains of artificial intelligence and STEM. We operate under the conviction that groundbreaking scientific innovation should never be constrained by socioeconomic status, geographical location, or institutional access. Through the provision of mentorship, open-source resources, and international collaboration, AIRA cultivates an environment in which intellectual curiosity is systematically transformed into tangible scientific impact.</p>
+                </div>
+                
+                <div class="about-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fas fa-eye"></i> Vision Statement</h3>
+                    <p>By the year 2029, AIRA aspires to provide high-quality research access to a minimum of one thousand students worldwide, thereby establishing a sustainable, youth-led ecosystem that champions innovation, equity, and the advancement of scientific knowledge. Our vision encompasses the creation of a globally interconnected network in which student researchers are not only participants but also contributors to meaningful developments in artificial intelligence, STEM disciplines, and allied scientific domains.</p>
+                </div>
+                
+                <div class="about-card" data-aos="fade-up" data-aos-delay="600">
+                    <h3><i class="fas fa-gem"></i> Core Values</h3>
+                    <ul>
+                        <li><strong>Integrity:</strong> Every research endeavor is governed by honesty, transparency, and ethical accountability.</li>
+                        <li><strong>Inclusion:</strong> We believe talent is universally distributed and every student deserves equitable opportunities.</li>
+                        <li><strong>Innovation:</strong> We promote imaginative problem-solving that generates societal benefit.</li>
+                        <li><strong>Impact:</strong> We commit to measurable outcomes that positively influence communities and science.</li>
+                    </ul>
+                </div>
+                
+                <div class="about-card" data-aos="fade-up" data-aos-delay="800">
+                    <h3><i class="fas fa-info-circle"></i> Organization Details</h3>
+                    <p><strong>Name:</strong> AI Research Accessibility (AIRA)<br>
+                    <strong>Type:</strong> Student-Founded Nonprofit Initiative<br>
+                    <strong>Founded:</strong> 2025<br>
+                    <strong>Headquarters:</strong> Georgia, United States of America<br>
+                    <strong>Co-Founders:</strong> Smyan Reddy and Tejus Peri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Section -->
+    <section id="legal" class="legal">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Legal & Policies</h2>
+            
+            <div class="legal-content">
+                <div class="legal-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-shield-alt"></i> Privacy Policy</h3>
+                    <p class="last-updated">Last Updated: January 2025</p>
+                    
+                    <h4>1. Information We Collect</h4>
+                    <p>We collect:<br>
+                    • Personal Information: Name, email, school affiliation during registration<br>
+                    • Technical Information: IP addresses, browser type for analytics<br>
+                    • Research Data: Materials submitted for research programs</p>
+                    
+                    <h4>2. How We Use Your Information</h4>
+                    <p>We use data for:<br>
+                    • Managing program participation<br>
+                    • Facilitating mentor-student communications<br>
+                    • Providing resources and improving website experience<br>
+                    • Complying with legal obligations</p>
+                    
+                    <h4>3. Data Sharing</h4>
+                    <p>AIRA does not sell data. We only share with:<br>
+                    • Mentors and staff for educational purposes<br>
+                    • Service providers under confidentiality agreements<br>
+                    • When required by law</p>
+                    
+                    <h4>4. Your Rights</h4>
+                    <p>Contact airafellowship@gmail.com to access, correct, or delete your data.</p>
+                    
+                    <h4>5. Children's Privacy</h4>
+                    <p>Programs are for students aged 13+. Parental consent required for under 18.</p>
+                </div>
+                
+                <div class="legal-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fas fa-file-contract"></i> Terms of Use</h3>
+                    <p class="last-updated">Effective: January 2025</p>
+                    
+                    <h4>1. Acceptable Use</h4>
+                    <p>Our website is for educational purposes only. Users may not:<br>
+                    • Use it for unlawful purposes<br>
+                    • Attempt unauthorized server access<br>
+                    • Copy or distribute content without permission</p>
+                    
+                    <h4>2. Intellectual Property</h4>
+                    <p>All content is property of AIRA. Student research remains their intellectual property, but AIRA retains a non-exclusive license to display works for educational purposes.</p>
+                    
+                    <h4>3. Limitation of Liability</h4>
+                    <p>AIRA is not liable for damages arising from website use. Services are provided "as is" without warranty.</p>
+                    
+                    <h4>4. Governing Law</h4>
+                    <p>These Terms are governed by Georgia, USA law.</p>
+                    
+                    <h4>5. Contact</h4>
+                    <p>AI Research Accessibility (AIRA)<br>
+                    Email: airafellowship@gmail.com<br>
+                    Headquarters: Georgia, United States of America</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="apply" class="cta">
+        <div class="container">
+            <h2 data-aos="fade-up">Ready to Start Your Research Journey?</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Applications open for 2025 cohorts. Choose your path below.</p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://form.jotform.com/253107655895063" class="btn-cta-primary" target="_blank">Apply as Student</a>
+                <a href="https://form.jotform.com/253107396424053" class="btn-cta-secondary" target="_blank">Apply as Mentor</a>
+            </div>
+            <div class="deadlines" data-aos="fade-up" data-aos-delay="300">
+                <p><strong>Student Applications Due:</strong> March 1, 2025 (Summer) | June 1, 2025 (School Year)</p>
+                <p><strong>Mentor Applications:</strong> Rolling basis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="16" height="16" rx="1.618" fill="#00D9FF"/>
+                            <rect x="6.809" y="6.809" width="10.382" height="10.382" rx="1.059" fill="#1a1a1a"/>
+                            <line x1="8.618" y1="13.618" x2="10.5" y2="10" stroke="#00D9FF" stroke-width="0.5" stroke-linecap="round"/>
+                            <line x1="13.382" y1="13.618" x2="11.5" y2="10" stroke="#00D9FF" stroke-width="0.5" stroke-linecap="round"/>
+                            <line x1="9.691" y1="13.618" x2="12.309" y2="13.618" stroke="#00D9FF" stroke-width="0.5" stroke-linecap="round"/>
+                            <circle cx="14.618" cy="9.691" r="0.618" fill="#FFFFFF"/>
+                            <line x1="14.618" y1="10.309" x2="14.618" y2="12.927" stroke="#00D9FF" stroke-width="0.382" stroke-linecap="round"/>
+                            <line x1="11" y1="10" x2="11" y2="14.618" stroke="#00D9FF" stroke-width="0.5" stroke-linecap="round"/>
+                            <path d="M 11,14.236 Q 11,13 12.236,13" fill="none" stroke="#00D9FF" stroke-width="0.5" stroke-linecap="round"/>
+                            <line x1="12.236" y1="13" x2="13.854" y2="15.618" stroke="#00D9FF" stroke-width="0.5" stroke-linecap="round"/>
+                        </svg>
+                        <span class="logo-main">AIRA</span>
+                    </div>
+                    <p>AI Research Access</p>
+                    <p>Democratizing research for high school students</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Programs</h4>
+                        <a href="#programs">Summer Fellowship</a>
+                        <a href="#programs">School Year Fellowship</a>
+                        <a href="https://form.jotform.com/253107655895063" target="_blank">Student Application</a>
+                        <a href="https://form.jotform.com/253107396424053" target="_blank">Mentor Application</a>
+                    </div>
+                <div class="link-group">
+                    <h4>Get Involved</h4>
+                    <a href="#mentors">Become a Mentor</a>
+                    <a href="#partners">Partner With Us</a>
+                    <a href="#donate">Donate</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#legal">Privacy Policy</a>
+                    <a href="#legal">Terms of Use</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://twitter.com/airafellowship" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/company/airafellowship" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com/airafellowship" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/airafellowship" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Research Accessibility (AIRA). A 501(c)(3) nonprofit organization.</p>
+                <p>EIN: [Your EIN] | airafellowship@gmail.com | Georgia, USA</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
